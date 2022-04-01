@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Select Menu</title>
+    <style>
+        body{
+            padding: 2rem ;
+        }
+        label{
+            display: block;
+            margin-bottom: 1rem;
+        }
+        select{
+            padding:.5rem .8rem ;
+            font-size: .9rem;
+            background-color: rgb(36, 173, 214);
+            cursor: pointer;
+            border:1px solid #ddd;
+            border-radius:5px ;
+            outline: none;
+            color: #fff;
+            font-weight:600;
+        }  
+        select:hover,select:focus{
+            border:1px solid #bbb;   
+        }
+        option{
+            background-color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            color:rgb(36, 173, 214)
+        }
+       
+    </style>
+</head>
+<body>
+    <label for="fruits">Choose Your Favorite Fruit:</label>
+    <select name="favorite-fruit" id="fruits" >
+        <option selected >Select One</option>
+        <option value="banana">Banana</option>
+        <option value="rasberry">Rasberry</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="apple">Apple</option>
+    </select>
+
+    
+</body>
+</html>
